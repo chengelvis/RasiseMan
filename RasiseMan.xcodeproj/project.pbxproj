@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0272A1B217602C14000B58ED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0272A1B117602C14000B58ED /* Cocoa.framework */; };
+		0272A1BC17602C14000B58ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0272A1BA17602C14000B58ED /* InfoPlist.strings */; };
+		0272A1BE17602C14000B58ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0272A1BD17602C14000B58ED /* main.m */; };
+		0272A1C217602C14000B58ED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0272A1C017602C14000B58ED /* Credits.rtf */; };
+		0272A1C517602C14000B58ED /* RMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0272A1C417602C14000B58ED /* RMDocument.m */; };
+		0272A1C817602C14000B58ED /* RMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0272A1C617602C14000B58ED /* RMDocument.xib */; };
+		0272A1CB17602C14000B58ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0272A1C917602C14000B58ED /* MainMenu.xib */; };
+		0272A1D317602C4E000B58ED /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0272A1D217602C4E000B58ED /* Person.m */; };
+		02F8140E1761744F00D3F4B0 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F8140D1761744F00D3F4B0 /* PreferenceController.m */; };
+		02F814111761751700D3F4B0 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F814101761751700D3F4B0 /* AppController.m */; };
+		02F814131761779600D3F4B0 /* Preference.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02F814121761779600D3F4B0 /* Preference.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0272A1AE17602C14000B58ED /* RasiseMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RasiseMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0272A1B117602C14000B58ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0272A1B417602C14000B58ED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0272A1B517602C14000B58ED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0272A1B617602C14000B58ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0272A1B917602C14000B58ED /* RasiseMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RasiseMan-Info.plist"; sourceTree = "<group>"; };
+		0272A1BB17602C14000B58ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0272A1BD17602C14000B58ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0272A1BF17602C14000B58ED /* RasiseMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RasiseMan-Prefix.pch"; sourceTree = "<group>"; };
+		0272A1C117602C14000B58ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0272A1C317602C14000B58ED /* RMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMDocument.h; sourceTree = "<group>"; };
+		0272A1C417602C14000B58ED /* RMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMDocument.m; sourceTree = "<group>"; };
+		0272A1C717602C14000B58ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMDocument.xib; sourceTree = "<group>"; };
+		0272A1CA17602C14000B58ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0272A1D117602C4E000B58ED /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		0272A1D217602C4E000B58ED /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		02F8140C1761744F00D3F4B0 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		02F8140D1761744F00D3F4B0 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		02F8140F1761751700D3F4B0 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		02F814101761751700D3F4B0 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		02F814121761779600D3F4B0 /* Preference.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preference.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0272A1AB17602C14000B58ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272A1B217602C14000B58ED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0272A1A517602C14000B58ED = {
+			isa = PBXGroup;
+			children = (
+				0272A1B717602C14000B58ED /* RasiseMan */,
+				0272A1B017602C14000B58ED /* Frameworks */,
+				0272A1AF17602C14000B58ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0272A1AF17602C14000B58ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0272A1AE17602C14000B58ED /* RasiseMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0272A1B017602C14000B58ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0272A1B117602C14000B58ED /* Cocoa.framework */,
+				0272A1B317602C14000B58ED /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0272A1B317602C14000B58ED /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0272A1B417602C14000B58ED /* AppKit.framework */,
+				0272A1B517602C14000B58ED /* CoreData.framework */,
+				0272A1B617602C14000B58ED /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0272A1B717602C14000B58ED /* RasiseMan */ = {
+			isa = PBXGroup;
+			children = (
+				0272A1D117602C4E000B58ED /* Person.h */,
+				0272A1D217602C4E000B58ED /* Person.m */,
+				0272A1C317602C14000B58ED /* RMDocument.h */,
+				0272A1C417602C14000B58ED /* RMDocument.m */,
+				0272A1C617602C14000B58ED /* RMDocument.xib */,
+				02F8140F1761751700D3F4B0 /* AppController.h */,
+				02F814101761751700D3F4B0 /* AppController.m */,
+				02F814121761779600D3F4B0 /* Preference.xib */,
+				02F8140C1761744F00D3F4B0 /* PreferenceController.h */,
+				02F8140D1761744F00D3F4B0 /* PreferenceController.m */,
+				0272A1C917602C14000B58ED /* MainMenu.xib */,
+				0272A1B817602C14000B58ED /* Supporting Files */,
+			);
+			path = RasiseMan;
+			sourceTree = "<group>";
+		};
+		0272A1B817602C14000B58ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0272A1B917602C14000B58ED /* RasiseMan-Info.plist */,
+				0272A1BA17602C14000B58ED /* InfoPlist.strings */,
+				0272A1BD17602C14000B58ED /* main.m */,
+				0272A1BF17602C14000B58ED /* RasiseMan-Prefix.pch */,
+				0272A1C017602C14000B58ED /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0272A1AD17602C14000B58ED /* RasiseMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0272A1CE17602C14000B58ED /* Build configuration list for PBXNativeTarget "RasiseMan" */;
+			buildPhases = (
+				0272A1AA17602C14000B58ED /* Sources */,
+				0272A1AB17602C14000B58ED /* Frameworks */,
+				0272A1AC17602C14000B58ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RasiseMan;
+			productName = RasiseMan;
+			productReference = 0272A1AE17602C14000B58ED /* RasiseMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0272A1A617602C14000B58ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = iacmaysw;
+			};
+			buildConfigurationList = 0272A1A917602C14000B58ED /* Build configuration list for PBXProject "RasiseMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0272A1A517602C14000B58ED;
+			productRefGroup = 0272A1AF17602C14000B58ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0272A1AD17602C14000B58ED /* RasiseMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0272A1AC17602C14000B58ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272A1BC17602C14000B58ED /* InfoPlist.strings in Resources */,
+				0272A1C217602C14000B58ED /* Credits.rtf in Resources */,
+				0272A1C817602C14000B58ED /* RMDocument.xib in Resources */,
+				0272A1CB17602C14000B58ED /* MainMenu.xib in Resources */,
+				02F814131761779600D3F4B0 /* Preference.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0272A1AA17602C14000B58ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272A1BE17602C14000B58ED /* main.m in Sources */,
+				0272A1C517602C14000B58ED /* RMDocument.m in Sources */,
+				0272A1D317602C4E000B58ED /* Person.m in Sources */,
+				02F8140E1761744F00D3F4B0 /* PreferenceController.m in Sources */,
+				02F814111761751700D3F4B0 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0272A1BA17602C14000B58ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0272A1BB17602C14000B58ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0272A1C017602C14000B58ED /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0272A1C117602C14000B58ED /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0272A1C617602C14000B58ED /* RMDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0272A1C717602C14000B58ED /* en */,
+			);
+			name = RMDocument.xib;
+			sourceTree = "<group>";
+		};
+		0272A1C917602C14000B58ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0272A1CA17602C14000B58ED /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0272A1CC17602C14000B58ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0272A1CD17602C14000B58ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0272A1CF17602C14000B58ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RasiseMan/RasiseMan-Prefix.pch";
+				INFOPLIST_FILE = "RasiseMan/RasiseMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0272A1D017602C14000B58ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RasiseMan/RasiseMan-Prefix.pch";
+				INFOPLIST_FILE = "RasiseMan/RasiseMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0272A1A917602C14000B58ED /* Build configuration list for PBXProject "RasiseMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272A1CC17602C14000B58ED /* Debug */,
+				0272A1CD17602C14000B58ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0272A1CE17602C14000B58ED /* Build configuration list for PBXNativeTarget "RasiseMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272A1CF17602C14000B58ED /* Debug */,
+				0272A1D017602C14000B58ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0272A1A617602C14000B58ED /* Project object */;
+}

@@ -102,11 +102,10 @@ return YES;
 {
     NSLog(@"Alert sheet Ended");
     if (choice==NSAlertDefaultReturn) {
-        //[employeesController remove:nil]; //elvis
-        //add some
+        [employeesController remove:nil];
       /* NSInteger change= NSRunAlertPanel(@"Warning", @"Change?", @"YES", @"NO", nil);
         if (change==NSAlertDefaultReturn)*/
-        [[employeesController selectedObjects] setValue:0 forKey:@"expectedRaise"];
+        //[[employeesController selectedObjects] setValue:0 forKey:@"expectedRaise"];
         
     }
 }
